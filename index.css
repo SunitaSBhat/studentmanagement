@@ -1,0 +1,53 @@
+#add{
+    width:100px;
+    height:40px;
+    background-color: beige;
+    font-weight: bold;
+    border-radius: 4px 4px;
+}
+body {
+    background-image: url("./student.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Cover the entire background */
+}
+#form{
+    display: flex;
+    flex-direction: row;
+}
+#form input{
+    margin: 0px 12px;
+    width: 229px;
+    height: 35px;
+    border-radius: 12px 12px;
+}
+table {
+    width: 1000px;
+    border-collapse: separate; 
+    border-spacing: 10px;
+    margin-top: 26px;
+  text-align:center;
+  margin-left:68px;
+ margin-right:21px;
+}
+table thead th{
+    background-color: rgb(60, 167, 197);
+    width:35px;
+    height:35px;
+}
+
+
+td, th {
+     padding-right: 77px;  
+    
+}
+#container{
+    background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:200px;
+  border:2px solid black;
+  width:1050px;
+  margin-left:272px;
+}

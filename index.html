@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+    <h1>CRUD OPERATION</h1>
+    <div id="form">
+    <input type="text" id="name" placeholder="Enter name">
+    <input type="text" id="email" placeholder="Enter email">
+   <button onclick="addStudent()"id="add">Add</button></div>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="Table">
+        </tbody>
+    </table>
+    <div id="update"></div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
